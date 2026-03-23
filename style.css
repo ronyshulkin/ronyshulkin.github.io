@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+  margin: 0;
+}
+
+.blog-preview-card {
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1.5px solid black;
+  box-shadow: 8px 8px black;
+}
+
+.blog-preview-card-image-container {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 24px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.blog-preview-card-content {
+  margin-left: 24px;
+}
+
+.blog-preview-card-tag {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.blog-preview-card-published-date {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.blog-preview-card-title {
+  font-weight: 800;
+}
+
+.blog-preview-card-description {
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blog-preview-card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 129px;
+  margin-top: 24px;
+}
+
+.blog-preview-card-author-name {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.blog-preview-card-author-image {
+  width: 32px;
+  height: 32px;
+}
